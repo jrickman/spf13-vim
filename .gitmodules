@@ -67,3 +67,21 @@
 [submodule ".vim/bundle/vim-addon-mw-utils"]
 	path = .vim/bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "vim-endwise"]
+	path = .vim/bundle/vim-endwise
+	url = http://github.com/tpope/vim-endwise.git
+[submodule "vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "genutils"]
+	path = .vim/bundle/genutils
+	url = https://github.com/vim-scripts/genutils.git
+[submodule "multvals.vim"]
+	path = .vim/bundle/multvals.vim
+	url = https://github.com/vim-scripts/multvals.vim.git
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
