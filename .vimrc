@@ -216,11 +216,6 @@
 		"let cfu=phpcomplete#CompletePHP
 	" }
 	
-	" Supertab {
-		let g:SuperTabDefaultCompletionType = "context"
-		let g:SuperTabContextDefaultCompletionType = "<c-x><c-o>"
-	" }
-
 	" Misc { 
 		:map <C-F10> <Esc>:vsp<CR>:VTree<CR>
 		" map Control + F10 to Vtree
@@ -280,9 +275,6 @@
 		inoremap <expr> <C-d>	   pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<C-d>"
 		inoremap <expr> <C-u>      pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<C-u>"
 
-        " and make sure that it doesn't break supertab
-        let g:SuperTabCrMapping = 0
-        
 		" automatically open and close the popup menu / preview window
 		au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 		set completeopt=menu,preview,longest

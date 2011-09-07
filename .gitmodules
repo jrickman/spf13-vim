@@ -7,9 +7,6 @@
 [submodule ".vim/bundle/spf13-vim-colors"]
 	path = .vim/bundle/spf13-vim-colors
 	url = http://github.com/spf13/vim-colors.git
-[submodule ".vim/bundle/supertab"]
-	path = .vim/bundle/supertab
-	url = http://github.com/ervandew/supertab.git
 [submodule ".vim/bundle/fugitive"]
 	path = .vim/bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
