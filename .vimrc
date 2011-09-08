@@ -229,6 +229,8 @@
 		let g:NERDShutUp=1
 
 		let b:match_ignorecase = 1
+		
+		inoremap <C-Space> <C-x><C-o>
 	" }
 	
 	" ShowMarks {
